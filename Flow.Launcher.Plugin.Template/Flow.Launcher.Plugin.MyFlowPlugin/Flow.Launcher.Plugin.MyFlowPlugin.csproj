@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Flow.Launcher.Plugin.MyFlowPlugin</AssemblyName>
+    <PackageId>Flow.Launcher.Plugin.MyFlowPlugin</PackageId>
+    <Authors>PluginAuthor</Authors>
+    <PackageProjectUrl>https://github.com/PluginAuthor/Flow.Launcher.Plugin.MyFlowPlugin</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/PluginAuthor/Flow.Launcher.Plugin.MyFlowPlugin</RepositoryUrl>
+    <PackageTags>flow-launcher flow-plugin</PackageTags>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\Flow.Launcher.Plugin.MyFlowPlugin.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="plugin.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Flow.Launcher.Plugin" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>

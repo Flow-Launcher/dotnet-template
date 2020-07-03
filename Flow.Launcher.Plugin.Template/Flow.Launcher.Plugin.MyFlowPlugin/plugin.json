@@ -1,0 +1,12 @@
+{
+    "ID": "PluginId",
+    "ActionKeyword": "PluginActionKeyword",
+    "Name": "MyFlowPlugin",
+    "Description": "a new plugin for Flow",
+    "Author": "PluginAuthor",
+    "Version": "1.0.0",
+    "Language": "csharp",
+    "Website": "https://github.com/PluginAuthor/Flow.Launcher.Plugin.MyFlowPlugin",
+    "IcoPath": "icon.png",
+    "ExecuteFileName": "Flow.Launcher.Plugin.MyFlowPlugin.dll"
+}

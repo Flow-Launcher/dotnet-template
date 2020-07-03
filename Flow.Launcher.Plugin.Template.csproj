@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PackageId>Flow.Launcher.Plugin.Template</PackageId>
+    <Title>Flow-Launcher Plugin template for dotnet-new.</Title>
+    <Description>A dotnet-new template to start off plugins for the Flow Launcher.</Description>
+    <Authors>Flow-Launcher</Authors>
+    <PackageProjectUrl>https://github.com/Flow-Launcher/dotnet-template</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/Flow-Launcher/dotnet-template.git</RepositoryUrl>
+    <PackageTags>flow-launcher;flow-plugin;template;dotnet-new</PackageTags>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <PackageType>Template</PackageType>
+    <PackageVersion>1.0.0</PackageVersion>
+    <PackageReleaseNotes>initial release.</PackageReleaseNotes>
+    <NoBuild>true</NoBuild>
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <NoDefaultExcludes>true</NoDefaultExcludes>
+    <ContentTargetFolders>content</ContentTargetFolders>
+    <TargetFramework>netstandard0.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Flow.Launcher.Plugin.Template\**\*" Exclude="Flow.Launcher.Plugin.Template\**\bin\**;Flow.Launcher.Plugin.Template\**\obj\**" />
+    <Compile Remove="**\*" />
+  </ItemGroup>
+</Project>

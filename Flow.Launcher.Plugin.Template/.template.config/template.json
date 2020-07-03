@@ -1,0 +1,34 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Ioannis G.",
+    "classifications": [ "Library", "Plugin", "Flow-Launcher" ],
+    "name": "Plugin for the Flow launcher",
+    "identity": "Flow.Launcher.Plugin",
+    "shortName": "flow-plugin",
+    "tags": {
+      "language": "C#",
+      "type":"project"
+    },
+    "sourceName": "MyFlowPlugin",
+    "preferNameDirectory": false,
+    "symbols":{
+      "pluginId": {
+        "type": "generated",
+        "generator": "guid",
+        "replaces":"PluginId",
+        "parameters": {
+            "format":"N"
+        }
+      },
+      "author": {
+        "type": "parameter",
+        "defaultValue": "AuthorName",
+        "replaces":"PluginAuthor"
+      },
+      "keyword": {
+        "type": "parameter",
+        "defaultValue": "*",
+        "replaces":"PluginActionKeyword"
+      }
+    }
+}
