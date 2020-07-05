@@ -2,7 +2,7 @@
     "ID": "PluginId",
     "ActionKeyword": "PluginActionKeyword",
     "Name": "MyFlowPlugin",
-    "Description": "a new plugin for Flow",
+    "Description": "PluginDescription",
     "Author": "PluginAuthor",
     "Version": "1.0.0",
     "Language": "csharp",

@@ -15,8 +15,9 @@ Install the template by running the following command:
 
 ### Options
 
-| Option      | Description                                                                                             |
-| ----------- | ------------------------------------------------------------------------------------------------------- |
-| `--name`    | The name of the plugin. Entering `SamplePlugin` will be expanded to `Flow.Launcher.Plugin.SamplePlugin` |
-| `--author`  | The username of the author. Will be used as the username in Github links.                               |
-| `--keyword` | The action keyword of the plugin. Default value is `*`                                                  |
+| Option          | Description                                                                                             |
+| --------------- | ------------------------------------------------------------------------------------------------------- |
+| `--name`        | The name of the plugin. Entering `SamplePlugin` will be expanded to `Flow.Launcher.Plugin.SamplePlugin` |
+| `--author`      | The username of the author. Will be used as the username in Github links.                               |
+| `--keyword`     | The action keyword of the plugin. Default value is `*`                                                  |
+| `--description` | The description of the plugin that will be used in `plugin.json` and appear in the UI.                  |

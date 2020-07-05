@@ -29,6 +29,11 @@
         "type": "parameter",
         "defaultValue": "*",
         "replaces":"PluginActionKeyword"
+      },
+      "description": {
+        "type": "parameter",
+        "defaultValue": "a new plugin for Flow",
+        "replaces":"PluginDescription"
       }
     }
 }
