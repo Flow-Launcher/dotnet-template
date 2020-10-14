@@ -10,8 +10,8 @@
     <PackageTags>flow-launcher;flow-plugin;template;dotnet-new</PackageTags>
     <NeutralLanguage>en-US</NeutralLanguage>
     <PackageType>Template</PackageType>
-    <PackageVersion>1.0.0</PackageVersion>
-    <PackageReleaseNotes>initial release.</PackageReleaseNotes>
+    <PackageVersion>1.1.0</PackageVersion>
+    <PackageReleaseNotes>update Flow.Launcher.Plugin to 1.2.1</PackageReleaseNotes>
     <NoBuild>true</NoBuild>
     <IncludeContentInPack>true</IncludeContentInPack>
     <IncludeBuildOutput>false</IncludeBuildOutput>
