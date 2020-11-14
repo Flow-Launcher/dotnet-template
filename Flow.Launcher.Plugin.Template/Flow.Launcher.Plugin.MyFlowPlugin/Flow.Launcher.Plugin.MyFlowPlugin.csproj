@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Flow.Launcher.Plugin" Version="1.2.1" />
+    <PackageReference Include="Flow.Launcher.Plugin" Version="1.2.2" />
   </ItemGroup>
 
 </Project>
