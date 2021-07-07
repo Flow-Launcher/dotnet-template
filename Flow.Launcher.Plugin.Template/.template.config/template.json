@@ -20,7 +20,7 @@
             "format":"N"
         }
       },
-      "author": {
+      "pluginAuthor": {
         "type": "parameter",
         "defaultValue": "AuthorName",
         "replaces":"PluginAuthor"

@@ -11,12 +11,12 @@ Install the template by running the following command:
 
 ### Usage
 
-    dotnet new flow-plugin --name SamplePlugin --author YourUsername
+    dotnet new flow-plugin --name SamplePlugin --pluginAuthor YourGithubUsername
 
 for example, to start a plugin for `Spotify` with the `sp` keyword and a description, you would run:
 
 ```ps
-dotnet new flow-plugin --name Spotify --keyword sp --author MyNameOnGithub --description "a Spotify plugin for Flow-Launcher"
+dotnet new flow-plugin --name Spotify --keyword sp --pluginAuthor MyNameOnGithub --description "a Spotify plugin for Flow-Launcher"
 ```
 
 ### Options
@@ -24,7 +24,7 @@ dotnet new flow-plugin --name Spotify --keyword sp --author MyNameOnGithub --des
 | Option          | Description                                                                                             |
 | --------------- | ------------------------------------------------------------------------------------------------------- |
 | `--name`        | The name of the plugin. Entering `SamplePlugin` will be expanded to `Flow.Launcher.Plugin.SamplePlugin` |
-| `--author`      | The username of the author. Will be used as the username in Github links.                               |
+| `--pluginAuthor`| The username of the author. Will be used as the username in Github links.                               |
 | `--keyword`     | The action keyword of the plugin. Default value is `*`                                                  |
 | `--description` | The description of the plugin that will be used in `plugin.json` and appear in the UI.                  |
 
