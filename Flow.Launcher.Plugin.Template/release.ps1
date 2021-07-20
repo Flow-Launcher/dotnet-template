@@ -1,2 +1,2 @@
-dotnet publish -c Release -o Output/MyFlowPlugin -r win-x64 /p:DebugType=None /p:DebugSymbols=false
-Compress-Archive -LiteralPath Output/MyFlowPlugin -DestinationPath Output/MyFlowPlugin.zip -Force
+dotnet publish Flow.Launcher.Plugin.MyFlowPlugin -c Release -r win-x64
+Compress-Archive -LiteralPath Flow.Launcher.Plugin.MyFlowPlugin/bin/Release/win-x64/publish -DestinationPath Flow.Launcher.Plugin.MyFlowPlugin/bin/MyFlowPlugin.zip -Force

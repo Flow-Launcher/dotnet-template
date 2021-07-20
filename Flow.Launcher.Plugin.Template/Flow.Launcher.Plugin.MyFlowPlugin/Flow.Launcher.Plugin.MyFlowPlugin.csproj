@@ -9,10 +9,12 @@
     <RepositoryUrl>https://github.com/PluginAuthor/Flow.Launcher.Plugin.MyFlowPlugin</RepositoryUrl>
     <PackageTags>flow-launcher flow-plugin</PackageTags>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DocumentationFile>bin\Release\Flow.Launcher.Plugin.MyFlowPlugin.xml</DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>None</DebugType>
   </PropertyGroup>
 
   <ItemGroup>
