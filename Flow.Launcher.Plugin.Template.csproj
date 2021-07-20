@@ -10,8 +10,12 @@
     <PackageTags>flow-launcher;flow-plugin;template;dotnet-new</PackageTags>
     <NeutralLanguage>en-US</NeutralLanguage>
     <PackageType>Template</PackageType>
-    <PackageVersion>1.4.0</PackageVersion>
-    <PackageReleaseNotes>update Flow.Launcher.Plugin to 1.4.0</PackageReleaseNotes>
+    <PackageVersion>2.0.0</PackageVersion>
+    <PackageReleaseNotes>- update Flow.Launcher.Plugin to 2.0.0
+- update TargetFramework to net5.0-windows
+- rename --author option to --pluginAuthor to avoid issues under .Net 5 SDK
+- switch to dotnet publish in appveyor.yml
+- add a release script</PackageReleaseNotes>
     <NoBuild>true</NoBuild>
     <IncludeContentInPack>true</IncludeContentInPack>
     <IncludeBuildOutput>false</IncludeBuildOutput>
