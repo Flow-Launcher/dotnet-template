@@ -6,6 +6,7 @@
     <Authors>Flow-Launcher</Authors>
     <PackageProjectUrl>https://github.com/Flow-Launcher/dotnet-template</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/Flow-Launcher/dotnet-template.git</RepositoryUrl>
     <PackageTags>flow-launcher;flow-plugin;template;dotnet-new</PackageTags>
     <NeutralLanguage>en-US</NeutralLanguage>
@@ -26,5 +27,6 @@
   <ItemGroup>
     <Content Include="Flow.Launcher.Plugin.Template\**\*" Exclude="Flow.Launcher.Plugin.Template\**\bin\**;Flow.Launcher.Plugin.Template\**\obj\**" />
     <Compile Remove="**\*" />
+    <None Include="Readme.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
 </Project>
