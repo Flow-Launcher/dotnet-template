@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5.0-windows</TargetFramework>
+    <TargetFramework>net6.0-windows</TargetFramework>
     <AssemblyName>Flow.Launcher.Plugin.MyFlowPlugin</AssemblyName>
     <PackageId>Flow.Launcher.Plugin.MyFlowPlugin</PackageId>
     <Authors>PluginAuthor</Authors>
@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Flow.Launcher.Plugin" Version="2.1.1" />
+    <PackageReference Include="Flow.Launcher.Plugin" Version="3.0.1" />
   </ItemGroup>
 
 </Project>
