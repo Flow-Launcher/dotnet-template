@@ -1,4 +1,4 @@
-version: '2.1.0.{build}'
+version: '3.0.0.{build}'
 
 image: Visual Studio 2019
 
@@ -15,6 +15,6 @@ artifacts:
 deploy:
   provider: NuGet
   api_key:
-    secure: SfN1o6QQanif4GHzA0e1DCBbeBJGwVubM+ckpzSskWNBfDctZWtr6pr4Vdcmr3gB
+    secure: ofK16Z5FWkIJ5u963EiDdqltNbV3vqERe21htQ0QFEMJicTeEdhfFnTVf7blbRyv
   on:
     APPVEYOR_REPO_TAG: true

@@ -11,8 +11,9 @@
     <PackageTags>flow-launcher;flow-plugin;template;dotnet-new</PackageTags>
     <NeutralLanguage>en-US</NeutralLanguage>
     <PackageType>Template</PackageType>
-    <PackageVersion>2.1.0</PackageVersion>
-    <PackageReleaseNotes>update Flow.Launcher.Plugin to 2.1.1</PackageReleaseNotes>
+    <PackageVersion>3.0.0</PackageVersion>
+    <PackageReleaseNotes>- update Flow.Launcher.Plugin to 3.0.1
+- update TargetFramework to net6.0-windows</PackageReleaseNotes>
     <NoBuild>true</NoBuild>
     <IncludeContentInPack>true</IncludeContentInPack>
     <IncludeBuildOutput>false</IncludeBuildOutput>
