@@ -7,7 +7,7 @@ A dotnet CLI template to start off plugins for the [Flow Launcher](https://githu
 
 Install the template by running the following command:
 
-    dotnet new -i Flow.Launcher.Plugin.Template
+    dotnet new install Flow.Launcher.Plugin.Template
 
 ### Usage
 
