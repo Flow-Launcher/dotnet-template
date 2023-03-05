@@ -8,6 +8,7 @@
     <PackageProjectUrl>https://github.com/PluginAuthor/Flow.Launcher.Plugin.MyFlowPlugin</PackageProjectUrl>
     <RepositoryUrl>https://github.com/PluginAuthor/Flow.Launcher.Plugin.MyFlowPlugin</RepositoryUrl>
     <PackageTags>flow-launcher flow-plugin</PackageTags>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
