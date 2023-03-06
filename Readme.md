@@ -38,4 +38,4 @@ After generating the source files for your new plugin:
 
 ### Uninstall
 
-    dotnet new -u Flow.Launcher.Plugin.Template
+    dotnet new uninstall Flow.Launcher.Plugin.Template
