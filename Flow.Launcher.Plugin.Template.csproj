@@ -11,9 +11,11 @@
     <PackageTags>flow-launcher;flow-plugin;template;dotnet-new</PackageTags>
     <NeutralLanguage>en-US</NeutralLanguage>
     <PackageType>Template</PackageType>
-    <PackageVersion>3.0.0</PackageVersion>
-    <PackageReleaseNotes>- update Flow.Launcher.Plugin to 3.0.1
-- update TargetFramework to net6.0-windows</PackageReleaseNotes>
+    <PackageVersion>4.0.0</PackageVersion>
+    <PackageReleaseNotes>- update Flow.Launcher.Plugin to 4.0.0
+- update TargetFramework to net7.0-windows
+- add CopyLocalLockFileAssemblies property to project
+- resolve dotnet CLI warnings during release</PackageReleaseNotes>
     <NoBuild>true</NoBuild>
     <IncludeContentInPack>true</IncludeContentInPack>
     <IncludeBuildOutput>false</IncludeBuildOutput>
