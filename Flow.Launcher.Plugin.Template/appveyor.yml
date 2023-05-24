@@ -9,10 +9,7 @@ build_script:
 - ps: dotnet publish -c Release -r win-x64 --no-self-contained Flow.Launcher.Plugin.MyFlowPlugin/Flow.Launcher.Plugin.MyFlowPlugin.csproj
 
 after_build:
-- ps: >-
-    Compress-Archive -Path "Flow.Launcher.Plugin.MyFlowPlugin\bin\Release\win-x64\publish\*" -DestinationPath "plugin.zip"
-
-    Rename-Item plugin.zip Flow.Launcher.Plugin.MyFlowPlugin.flowlauncher
+- ps: Compress-Archive -Path "Flow.Launcher.Plugin.MyFlowPlugin\bin\Release\win-x64\publish\*" -DestinationPath "Flow.Launcher.Plugin.MyFlowPlugin.zip"
 
 artifacts:
-    - path: 'Flow.Launcher.Plugin.MyFlowPlugin.flowlauncher'
+    - path: 'Flow.Launcher.Plugin.MyFlowPlugin.zip'
