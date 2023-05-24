@@ -9,6 +9,12 @@ environment:
 build_script:
   - ps: dotnet pack -c Release
 
+test_script:
+  - ps: dotnet new install bin/Release/*.nupkg
+  - ps: dotnet new -o ./test flow-plugin --name TestPlugin --keyword ci --pluginAuthor AppVeyor --description "a test plugin from CI"
+  - ps: dotnet publish -c Release -r win-x64 --no-self-contained ./test/Flow.Launcher.Plugin.TestPlugin
+  - ps: Compress-Archive -Path ./test/Flow.Launcher.Plugin.TestPlugin/bin/Release/win-x64/publish/* -DestinationPath plugin.zip -Force
+
 artifacts:
   - path: bin\Release\*.nupkg
 
