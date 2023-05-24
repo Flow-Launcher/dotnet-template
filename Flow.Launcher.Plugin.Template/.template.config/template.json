@@ -17,7 +17,7 @@
         "generator": "guid",
         "replaces":"PluginId",
         "parameters": {
-            "format":"N"
+            "defaultFormat":"N"
         }
       },
       "pluginAuthor": {
