@@ -11,8 +11,8 @@
     <PackageTags>flow-launcher;flow-plugin;template;dotnet-new</PackageTags>
     <NeutralLanguage>en-US</NeutralLanguage>
     <PackageType>Template</PackageType>
-    <PackageVersion>4.0.2</PackageVersion>
-    <PackageReleaseNotes>- update appveyor.yml to create .zip artifacts</PackageReleaseNotes>
+    <PackageVersion>4.1.0</PackageVersion>
+    <PackageReleaseNotes>- update Flow.Launcher.Plugin to 4.1.0</PackageReleaseNotes>
     <NoBuild>true</NoBuild>
     <IncludeContentInPack>true</IncludeContentInPack>
     <IncludeBuildOutput>false</IncludeBuildOutput>
