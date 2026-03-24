@@ -11,8 +11,8 @@
     <PackageTags>flow-launcher;flow-plugin;template;dotnet-new</PackageTags>
     <NeutralLanguage>en-US</NeutralLanguage>
     <PackageType>Template</PackageType>
-    <PackageVersion>4.2.0</PackageVersion>
-    <PackageReleaseNotes>- update Flow.Launcher.Plugin to 4.4.0</PackageReleaseNotes>
+    <PackageVersion>4.2.1</PackageVersion>
+    <PackageReleaseNotes>- use hyphenated GUID format in template generation</PackageReleaseNotes>
     <NoBuild>true</NoBuild>
     <IncludeContentInPack>true</IncludeContentInPack>
     <IncludeBuildOutput>false</IncludeBuildOutput>
